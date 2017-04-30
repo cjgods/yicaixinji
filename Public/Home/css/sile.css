@@ -1,0 +1,95 @@
+@charset "utf8";
+#mysile{ width: 1000px; margin: 0 auto;  text-align: center;position: relative;}
+#mysile .mysile1{ width: 856px; margin: 0 auto; overflow: hidden; z-index: 100;  }
+#mysile .mysile1 .sileimg{ clear: both; }
+#mysile .mysile1 ul{
+    padding-left: 5px; padding-right: 5px;
+    width: 7624px; margin: 0;
+    position: relative; top: 0px; left: 0px;
+}
+#mysile .mysile1 ul li {
+    margin: 5px; width: 270px; height: 228px; border:1px solid #555;
+    float: left; overflow: hidden; vertical-align: middle; text-align: center;
+    background-color: #fff;
+}
+
+#mysile .mysile1 ul li img{ width: 100%; }
+
+#mysile .bgimg{width: 1000px; position: absolute; left: 0; top:450px; z-index: -1;}
+#mysile .bgimg img{ width: 100%; }
+
+.og_prev{ position: absolute; left:5px; top: 195px; cursor: pointer;}
+.og_next{ position: absolute; right:5px; top: 195px; cursor: pointer; }
+
+/*sile title*/
+
+#siletitle{
+    position: relative; color: #e95c00;
+    width: 1000px; margin: 0 auto;
+    border-bottom: solid 1px #555;
+
+}
+
+#siletitle span{ background: #FFF; font-size: 20px; position: absolute;
+    top: -10px;left: 350px; font-weight: bold;
+}
+#siletitle2{
+    padding-top: 20px; padding-bottom: 30px; font-size: 16px;color: #333;
+    text-align: center;
+}
+
+
+/*index page fuwu css*/
+#syfuwe{
+    border: solid 1px #555;
+    width: 1000px; margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 20px;
+}
+#syfuwe span{
+    background: #FFF; font-size: 20px; position: absolute;
+    top: -10px;left: 100px; font-weight: bold; color: #e95c00;
+}
+
+#syfuwe img{
+    width: 100%; padding-top: 15px;
+}
+
+/*index page fuwu2 css*/
+#syfuwe2{
+    border: solid 1px #555;
+    width: 1000px; margin: 0 auto;
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 55px;
+    padding-bottom: 20px;
+}
+#syfuwe2 span{
+    background: #FFF; font-size: 20px; position: absolute;
+    top: -32px;left: 400px; font-weight: bold; color: #e95c00;
+}
+#syfuwe2 span img{
+    vertical-align: bottom;
+}
+
+#syfuwe2 .img2{
+    padding-left: 20px; margin-top: 30px;
+
+}
+#syfuwe2 div{margin-top: 20px;}
+
+
+
+.mysile{width: 1000px;margin: 0 auto; margin-bottom: 40px;}
+.silet{  border-bottom: solid 1px #555; position: relative;}
+.silet .silet1{ position: absolute; text-align: center; top:-10px; left:426px; }
+.silet .silet1 span{ background-color: #fff; font-size: 20px; font-weight: bold; color: #e95c00; text-align: center; padding-left: 5px;padding-right: 5px;}
+.silet .silet2{left: 435px;}
+.siletitle2{ font-size: 18px; color: #444; text-align: center; margin-top: 30px; margin-bottom: 30px;}
+.siletitle2 span{ color: #444; font-weight: bold; padding-left: 5px; padding-right: 5px;}
+.mysileimg{ text-align: center; }
+
+
+
+

@@ -1,0 +1,47 @@
+/* CSS Document */
+@charset "UTF-8";
+.bannerbox{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.bannerbox ul{
+    position: relative;
+}
+.bannerbox ul li{
+    list-style: none;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bannerbox ul li.fst-li{
+    background: url("../images/focu.jpg") center no-repeat;
+    background-size: cover;
+}
+.bannerbox ul li.sec-li{
+    background: url("../images/shouye2.jpg") center no-repeat;
+    background-size: cover;
+}
+.bannerbox ul li.third-li{
+    background: url("../images/shouye3.jpg") center no-repeat;
+    background-size: cover;
+}
+.bannerbox ul li.forth-li{
+    background: url("../images/shouye4.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.bannerbox ul li .img1{
+    position: absolute;
+}
+.bannerbox ul li a{ display: block;width: 100%; height: 100%;}
+/*banner-01*/
+
+.nav{width:100px;height:14px;position:absolute;bottom:30px;right:20px;z-index: 2; left: 50%;margin-left: -50px}
+.nav dl dd{list-style-type:none;width:12px;height:12px;float:left;margin-right:5px;cursor:pointer;
+    border:1px solid #fff;}
+.nav dl .bg{background:#ff7300;width:14px;height:14px;border:none;}
