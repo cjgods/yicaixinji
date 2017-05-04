@@ -1,0 +1,2273 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body, button, input, select, textarea, a, a div {
+    font-family: "微软雅黑", Arial, serif !important;
+}
+
+.mainBlock {
+    width: 980px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #666;
+    height: auto;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.listInsurance {
+    border-top: 3px solid #FFF;
+    height: 248px;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100% !important;
+}
+
+.listInsurance .insuranceTitle {
+    height: 248px;
+    width: 196px;
+    overflow: hidden;
+    float: left;
+}
+
+.listInsurance .insuranceTitle .insuranceInfor {
+    height: 198px;
+    overflow: hidden;
+}
+
+.listInsurance .insuranceTitle a.more_select {
+    height: 50px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.insuranceBgIco01 {
+    height: 100px;
+    background: url(/app_images/insurance/productList01.png) no-repeat center center;
+}
+
+.listInsurance .insuranceTitle .insuranceInfor h2 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 0px;
+}
+
+.listInsurance .insuranceTitle .insuranceInfor h4 {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+ul.listProInsurance {
+    display: block;
+    float: left;
+}
+
+ul.listProInsurance li {
+    display: block;
+    height: 247px;
+    width: 195px;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    float: left;
+}
+
+.proInsurance {
+    position: relative;
+    margin: 10px auto;
+    width: 175px;
+}
+
+.proInsuranceTitle {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.insuranceContentTitle {
+    position: relative;
+    margin-top: 8px;
+    font-size: 12px;
+    padding-left: 12px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.lineIco {
+    height: 13px;
+    width: 3px;
+    background-color: #e05956;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+
+.insuranceContent {
+    padding-left: 12px;
+    color: #808e9c;
+}
+
+.redStyle {
+    border-color: #d03f3c !important;
+}
+
+.redStyle .insuranceInfor {
+    background: url(/app_images/insurance/redStyleBg.jpg) repeat;
+}
+
+.redStyle a.more_select {
+    background: #d03f3c;
+}
+
+.greenStyle {
+    border-color: #899611 !important;
+}
+
+.greenStyle .insuranceInfor {
+    background: url(/app_images/insurance/greenStyleBg.jpg) repeat;
+}
+
+.greenStyle a.more_select {
+    background: #899611;
+}
+
+.blueStyle {
+    border-color: #01a691 !important;
+}
+
+.blueStyle .insuranceInfor {
+    background: url(/app_images/insurance/blueStyleBg.jpg) repeat;
+}
+
+.blueStyle a.more_select {
+    background: #01a691;
+}
+
+.greenStyle02 {
+    border-color: #47a564 !important;
+}
+
+.greenStyle02 .insuranceInfor {
+    background: url(/app_images/insurance/greenStyleBg02.jpg) repeat;
+}
+
+.greenStyle02 a.more_select {
+    background: #47a564;
+}
+
+.blueStyle02 {
+    border-color: #1a7ba8 !important;
+}
+
+.blueStyle02 .insuranceInfor {
+    background: url(/app_images/insurance/blueStyleBg02.jpg) repeat;
+}
+
+.blueStyle02 a.more_select {
+    background: #1a7ba8;
+}
+
+.yellowStyle {
+    border-color: #ff8800 !important;
+}
+
+.yellowStyle .insuranceInfor {
+    background: url(/app_images/insurance/yellowStyleBg.jpg) repeat;
+}
+
+.yellowStyle a.more_select {
+    background: #ff8800;
+}
+
+.toolsBlock {
+    height: 220px;
+    margin-top: 20px;
+}
+
+.toolBlock {
+    float: left;
+    width: 188px;
+    height: 220px;
+    position: relative;
+}
+
+.toolBlock .toolTop {
+    height: 5px;
+    background-color: #556575;
+}
+
+.toolBlock .toolBody {
+    height: 185px;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+
+.toolIco {
+    font-size: 16px;
+    font-weight: bold;
+    color: #556575;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 45px;
+}
+
+.serchIco {
+    background: url(/app_images/insurance/inforIco1.gif) no-repeat 10px 6px;
+}
+
+.counterIco {
+    background: url(/app_images/insurance/inforIco2.gif) no-repeat 10px 6px;
+}
+
+.tableIco {
+    background: url(/app_images/insurance/inforIco3.gif) no-repeat 10px 6px;
+}
+
+.toolBody a {
+    color: #556575;
+    text-decoration: none;
+    height: 32px;
+    display: block;
+}
+
+ul.listArticle {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.toolFooter {
+    height: 30px;
+    line-height: 30px;
+    background: url(/app_images/insurance/listFooter.jpg) repeat-x;
+    text-indent: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.moreListArticle {
+    position: absolute;
+    display: block;
+    top: 220px;
+    left: 0px;
+    background: #3c5166;
+    z-index: 10;
+    width: 100%;
+    display: none;
+}
+
+.moreListArticle a {
+    color: #8eadba;
+    text-decoration: none;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 0px !important;
+}
+
+.moreListArticle a:hover {
+    color: #fff;
+    background: #465c70;
+}
+
+.marginRightA {
+    margin-right: 10px;
+}
+
+.artInforList {
+    border: 1px solid #dedede;
+    padding: 20px 0px;
+    clear: both;
+    margin-top: 20px;
+    height: 255px;
+}
+
+.artInforListBlock {
+    width: 438px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline;
+}
+
+.artInforTitle {
+    font-size: 22px;
+    padding-left: 35px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.artInforList .newsIco {
+    background: url(/app_images/insurance/newsIco01.jpg) no-repeat left center;
+}
+
+.artInforList .knowledgeIco {
+    background: url(/app_images/insurance/newsIco02.jpg) no-repeat left center;
+}
+
+.artInforContent li {
+    padding-bottom: 10px;
+}
+
+.artInforContent a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+}
+
+.artInforContent span {
+    float: left;
+}
+
+.artInforLink {
+    width: 302px;
+    height: 20px;
+    padding-right: 39px;
+    background: url(/app_images/insurance/ellipsis.jpg) repeat-x bottom left;
+    overflow: hidden;
+    *float: left;
+    *width: 260px;
+}
+
+.artInforLinkTitle {
+    background: #fff;
+    overflow: hidden;
+}
+
+.borderRight {
+    border-right: 1px solid #dedede;
+}
+
+a.moreInfor {
+    text-decoration: none;
+    color: #999;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.bannerBlock {
+    width: 100%;
+    text-align: center;
+}
+
+.banner01 {
+    background: url(/app_images/insurance/banner1.jpg) no-repeat top center;
+    padding-top: 300px;
+}
+
+.banner02 {
+    background: url(/app_images/insurance/banner2.jpg) no-repeat top center;
+    padding-top: 300px;
+}
+
+.chexian {
+    background: url(/app_images/insurance/chexian.jpg) no-repeat center center;
+}
+
+.lvyouxian {
+    background: url(/app_images/insurance/lvyouxian.jpg) no-repeat top center;
+    padding-top: 300px;
+}
+
+.shaoerxian {
+    background: url(/app_images/insurance/shaoerxian.jpg) no-repeat top center;
+    padding-top: 300px;
+    background-position-y: -60px
+}
+
+.jiankangxian {
+    background: url(/app_images/insurance/jiankangxian.jpg) no-repeat top center;
+    padding-top: 300px;
+    background-position-y: -35px
+}
+
+.yiwaixian {
+    background: url(/app_images/insurance/yiwaixian.jpg) no-repeat top center;
+    padding-top: 300px;
+    background-position-y: -25px;
+}
+
+.caichanxian {
+    background: url(/app_images/insurance/caichanxian.jpg) no-repeat top center;
+    padding-top: 300px;
+}
+
+.licaixian {
+    background: url(/app_images/insurance/licaixian.jpg) no-repeat top center;
+    padding-top: 300px;
+}
+
+.yanglaoxian {
+    background: url(/app_images/insurance/yanglaoxian.jpg) no-repeat top center;
+    padding-top: 300px;
+}
+
+.tabsTop {
+    padding: 10px;
+    border: 1px solid #dedede;
+    margin-top: 20px;
+    *height: 1%;
+    background: #ffffff;
+}
+
+.tabsTop a {
+    text-decoration: none;
+    color: #666;
+    display: inline;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.tabsTop a:hover {
+    background: #808e9c;
+    color: #fff;
+}
+
+.tabsTop a.clickTabs {
+    background: #808e9c;
+    color: #fff;
+}
+
+.tabsTop li {
+    display: inline;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+
+.warranty {
+    border: 1px solid #dedede;
+    padding: 0px;
+    margin-top: 10px;
+    position: relative;
+    *height: 1%;
+    background: #ffffff;
+    text-align: left;
+}
+
+.warranty .imgLeftBlock {
+    width: 262px;
+    height: 258px;
+    text-align: center;
+    float: left;
+}
+
+.warranty .imgLeftBlock img {
+    margin-top: 10px;
+}
+
+.warranty .warrantyInfor {
+    float: left;
+    width: 390px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.warranty .warrantyList {
+    float: right;
+    width: 260px;
+    background: #f9f9f9;
+    height: 258px;
+}
+
+.warranty .warrantyList .listInfor {
+    height: 130px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.warrantyTitle {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.warrantyTitle a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.warrantyItem {
+    background: url(/app_images/insurance/check01.jpg) no-repeat;
+    padding-bottom: 6px;
+    padding-left: 20px;
+}
+
+.warrantyItem span {
+    color: red;
+}
+
+.lookOver {
+    background: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    width: 186px;
+    height: 45px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.lookOver:hover {
+    background: #e74200 !important;
+    color: #fff !important;
+}
+
+.mta {
+    margin-top: 15px;
+}
+
+.mtb {
+    margin-top: 5px;
+}
+
+.pla {
+    padding-left: 5px !important;
+}
+
+.pta {
+    padding-top: 30px;
+}
+
+.marginLeft0 {
+    margin-left: 0px !important;
+}
+
+.topa {
+    top: 0px !important;
+}
+
+.tixa {
+    text-indent: 20px;
+}
+
+.bba {
+    border-bottom: 1px solid #dedede;
+}
+
+.bbn {
+    border-bottom: none !important;
+}
+
+.bgca {
+    background: #fafafa;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.tabsSidebar {
+    position: absolute;
+    z-index: 10;
+    top: 55px;
+    left: -48px;
+}
+
+.tabsSidebar a {
+    width: 45px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+a.sidebar00 {
+    background: url(/app_images/insurance/verticalIco00.png) no-repeat center center;
+}
+
+a.sidebar01 {
+    background: url(/app_images/insurance/verticalIco01.png) no-repeat center center;
+}
+
+a.sidebar02 {
+    background: url(/app_images/insurance/verticalIco02.png) no-repeat center center;
+}
+
+a.sidebar03 {
+    background: url(/app_images/insurance/verticalIco03.png) no-repeat center center;
+}
+
+a.sidebar04 {
+    background: url(/app_images/insurance/verticalIco04.png) no-repeat center center;
+}
+
+a.sidebar05 {
+    background: url(/app_images/insurance/verticalIco05.png) no-repeat center center;
+}
+
+a.sidebar06 {
+    background: url(/app_images/insurance/verticalIco06.png) no-repeat center center;
+}
+
+a.sidebar07 {
+    background: url(/app_images/insurance/verticalIco07.png) no-repeat center center;
+}
+
+.tabsSidebar a:hover {
+    background: #0c9adc;
+    text-decoration: none;
+    color: #fff;
+    text-indent: 0px;
+}
+
+a.clickShow {
+    background: #0c9adc;
+    text-decoration: none;
+    color: #fff;
+    text-indent: 0px;
+}
+
+.bannerImg {
+    width: 100%;
+    height: 422px;
+    overflow: hidden;
+    text-align: center;
+    background: url(/app_images/insurance/chexian0720.jpg) no-repeat center center;
+    position: relative;
+}
+
+.bannerImg_link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 422px;
+    display: block;
+    z-index: 9;
+}
+
+.pricingBlock {
+    width: 556px;
+    height: 356px;
+    position: absolute;
+    top: 30px;
+    left: 45%;
+    background: #fff;
+    text-align: left;
+    font-size: 12px !important;
+    z-index: 11;
+}
+
+.pricingCounter {
+    width: 536px;
+    height: 336px;
+    margin: 10px;
+}
+
+.multipleGifts {
+    display: inline;
+    float: left;
+    width: 253px;
+    height: 100%;
+    background: #f9f9f9;
+    margin-right: 10px;
+}
+
+.pricing {
+    display: inline;
+    float: left;
+    width: 253px;
+    *width: 253px;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slogan {
+    height: 50px;
+    line-height: 50px;
+}
+
+.slogan b {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.slogan span {
+    color: #5f6e7d;
+}
+
+.underStandIns {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.underStandIns b {
+    font-size: 22px;
+    margin-left: 200px;
+    padding-right: 30px;
+}
+
+.underStandIns a {
+    color: #3ba5ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.underStandIns span {
+    margin-right: 20px;
+}
+
+.multipleGiftsList {
+    margin: 0 20px 8px 20px !important;
+}
+
+.multipleGiftsTitle {
+    padding: 5px 10px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+.multipleGiftsTitle a {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+}
+
+.multipleGiftsTitle a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+}
+
+.multipleGiftsItem {
+    padding: 5px 10px !important;
+    background: #FFF !important;
+    font-size: 13px !important;
+}
+
+.multipleGiftsItem a {
+    text-decoration: none !important;
+}
+
+.multipleGiftsItem a:hover {
+    text-decoration: none !important;
+}
+
+.bgc01 {
+    background: #b0d77a !important;
+}
+
+.bgc02 {
+    background: #77bbbf !important;
+}
+
+.bgc03 {
+    background: #6aa5d6 !important;
+}
+
+.bgc04 {
+    background: #f66 !important;
+}
+
+.clause {
+    width: 680px;
+    height: 305px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    float: left;
+}
+
+.commonTools {
+    width: 275px;
+    height: 305px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    float: right;
+}
+
+.commonToolsTitle {
+    height: 35px;
+    background: #7bbcf5;
+    color: #FFF;
+    text-indent: 20px;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.commonToolsBody {
+    height: 270px;
+    overflow: hidden;
+}
+
+.commonToolsBody ul li {
+    display: inline;
+    float: left;
+    width: 91px;
+    height: 89px;
+    overflow: hidden;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    text-align: center;
+}
+
+.commonToolsBody ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+}
+
+.commonToolsBody ul li a:hover {
+    color: #ff6600;
+}
+
+.commonToolsIco {
+    padding-top: 3px;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.advisoryServices {
+    width: 260px;
+    height: 100%;
+    border-right: 1px solid #dedede;
+    background: url(/app_images/insurance/server01.jpg) no-repeat 80px bottom;
+    float: left;
+    display: inline;
+}
+
+.advisoryFun {
+    width: 418px;
+    height: 100%;
+    float: left;
+    display: inline;
+}
+
+.renewalInsurance {
+    height: 152px;
+}
+
+.advisoryServicesTitle {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.advisoryServicesItem {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.advisoryTel {
+    font-size: 18px;
+    color: #ff6600;
+    line-height: 30px;
+}
+
+.advisoryIco01 {
+    background: url(/app_images/insurance/servicesIco01.png) no-repeat;
+}
+
+.advisoryIco02 {
+    background: url(/app_images/insurance/servicesIco02.png) no-repeat;
+}
+
+.advisoryIco03 {
+    background: url(/app_images/insurance/servicesIco03.png) no-repeat;
+}
+
+.colorA {
+    color: #3ba5ff;
+}
+
+.advisoryServicesCounter {
+    margin-left: 30px;
+    margin-right: 160px;
+}
+
+.advisoryServicesBg1 {
+    background: url(/app_images/insurance/car01.png) no-repeat right bottom;
+}
+
+.advisoryServicesBg2 {
+    background: url(/app_images/insurance/car02.png) no-repeat right bottom;
+}
+
+.noRightBorder {
+    border-right: none !important;
+}
+
+a.renewalBtn {
+    margin-top: 20px;
+    margin-left: 30px;
+    background: #4391c4;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+a.renewalBtn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.inquiryBtn {
+    margin-top: 20px;
+    margin-left: 30px;
+    background: #4fc171;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+a.inquiryBtn:hover {
+    color: #fff;
+}
+
+.typesIns {
+    padding: 20px;
+}
+
+.typesIns .basicIns {
+    width: 440px;
+    float: left;
+}
+
+.typesIns .additionalIns {
+    width: 440px;
+    float: right;
+}
+
+.typesInsTitle {
+    font-size: 16px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.typesInsItems {
+    width: 438px;
+    border: 1px solid #dedede;
+    background: #fff;
+}
+
+.typesInsItemList {
+    width: 200px;
+    border-right: 1px solid #dedede;
+    float: left;
+}
+
+a.typesInsItem {
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #dedede;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+a.typesInsItem .selIco {
+    position: absolute;
+    right: -8px;
+    top: 10px;
+    background: url(/app_images/insurance/selectIco01.gif) no-repeat;
+    width: 15px;
+    height: 15px;
+    z-index: 10;
+    display: none;
+}
+
+.typesInsItem b {
+    font-size: 16px;
+    width: 30px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+a.typesInsItem:hover {
+    background: #2290f1;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.typesInsItem:hover .selIco {
+    display: block;
+}
+
+a.click {
+    background: #2290f1 !important;
+    color: #fff !important;
+}
+
+a.click .selIco {
+    display: block !important;
+}
+
+.typesInsItemCounter {
+    width: 237px;
+    float: right;
+    height: 100%;
+}
+
+.typesInsItemCounter .typesInsInfor {
+    margin: 8px 15px;
+}
+
+.typesInsItemCounter .typesInsInfor b {
+    font-size: 16px;
+    color: #ff6610;
+    padding-right: 10px;
+}
+
+.cartoon {
+    width: 980px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.highway {
+    width: 980px;
+    position: absolute;
+    height: 25px;
+    background: url(/app_images/insurance/highway.png) no-repeat top center;
+    bottom: -12px;
+    left: 0px;
+    z-index: 10;
+}
+
+.road {
+    width: 225px;
+    height: 29px;
+    z-index: 100;
+    left: 150px;
+    bottom: -12px;
+    position: absolute;
+    background: url(/app_images/insurance/road02.png) no-repeat;
+}
+
+.tree1 {
+    width: 53px;
+    height: 89px;
+    z-index: 90;
+    left: 180px;
+    bottom: 10px;
+    position: absolute;
+    background: url(/app_images/insurance/tree01.png) no-repeat;
+}
+
+.tree2 {
+    width: 197px;
+    height: 137px;
+    z-index: 50;
+    right: 180px;
+    bottom: 13px;
+    position: absolute;
+    background: url(/app_images/insurance/tree02.png) no-repeat;
+}
+
+.car01 {
+    width: 280px;
+    height: 200px;
+    z-index: 60;
+    left: -200px;
+    bottom: 1px;
+    position: absolute;
+    background: url(/app_images/insurance/carD01.png) no-repeat;
+}
+
+.car02 {
+    width: 349px;
+    height: 151px;
+    z-index: 70;
+    right: -160px;
+    bottom: 0px;
+    position: absolute;
+    background: url(/app_images/insurance/carD02.png) no-repeat;
+}
+
+.ground {
+    width: 100%;
+    height: 116px;
+    background: #918c7e;
+}
+
+.assistant {
+    color: #ff6f1e;
+    font-size: 14px;
+    text-align: center;
+}
+
+.steps {
+    text-align: center;
+    width: 560px;
+    margin: 30px auto 10px auto;
+    position: relative;
+}
+
+.stepNum {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.telTxt {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6610;
+    font-style: italic;
+}
+
+.stepTxt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.stepClickTxt {
+    color: #2290f1 !important;
+    font-style: normal !important;
+}
+
+.step1 {
+    width: 100px;
+    height: 60px;
+    background: url(/app_images/insurance/step01a.jpg) no-repeat top center;
+    padding-top: 80px;
+    cursor: pointer;
+    float: left;
+    display: inline;
+    margin-right: 50px;
+}
+
+.step2 {
+    width: 100px;
+    height: 60px;
+    background: url(/app_images/insurance/step02a.jpg) no-repeat top center;
+    padding-top: 80px;
+    cursor: pointer;
+    float: left;
+    display: inline;
+    margin-right: 40px;
+}
+
+.step3 {
+    width: 120px;
+    height: 60px;
+    background: url(/app_images/insurance/step03a.jpg) no-repeat top center;
+    padding-top: 80px;
+    cursor: pointer;
+    float: left;
+    display: inline;
+    margin-right: 40px;
+}
+
+.step4 {
+    width: 100px;
+    height: 60px;
+    background: url(/app_images/insurance/step04a.jpg) no-repeat top center;
+    padding-top: 80px;
+    cursor: pointer;
+    float: left;
+    display: inline;
+}
+
+.clickStep1 {
+    background: url(/app_images/insurance/step01b.jpg) no-repeat top center !important;
+}
+
+.clickStep2 {
+    background: url(/app_images/insurance/step02b.jpg) no-repeat top center !important;
+}
+
+.clickStep3 {
+    background: url(/app_images/insurance/step03b.jpg) no-repeat top center !important;
+}
+
+.clickStep4 {
+    background: url(/app_images/insurance/step04b.jpg) no-repeat top center !important;
+}
+
+.stepLine1 {
+    width: 81px;
+    height: 1px;
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+    top: 35px;
+    left: 85px;
+    z-index: 100;
+    background: #c0b9a4;
+}
+
+.stepLine2 {
+    width: 81px;
+    height: 1px;
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+    top: 35px;
+    left: 235px;
+    z-index: 101;
+    background: #c0b9a4;
+}
+
+.stepLine3 {
+    width: 81px;
+    height: 1px;
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+    top: 35px;
+    left: 385px;
+    z-index: 102;
+    background: #c0b9a4;
+}
+
+.selectTop {
+    height: 9px;
+}
+
+.selectTop01 {
+    display: inline;
+    float: left;
+    height: 9px;
+    width: 12px;
+    overflow: hidden;
+    z-index: 1;
+    background: url(/app_images/insurance/select03.jpg) no-repeat;
+    margin-left: 260px;
+    position: relative;
+    bottom: -1px;
+}
+
+.selectTop02 {
+    display: inline;
+    float: left;
+    height: 9px;
+    width: 12px;
+    overflow: hidden;
+    z-index: 2;
+    background: url(/app_images/insurance/select03.jpg) no-repeat;
+    margin-left: 135px;
+    position: relative;
+    bottom: -1px;
+}
+
+.selectTop03 {
+    display: inline;
+    float: left;
+    height: 9px;
+    width: 12px;
+    overflow: hidden;
+    z-index: 3;
+    background: url(/app_images/insurance/select03.jpg) no-repeat;
+    margin-left: 135px;
+    position: relative;
+    bottom: -1px;
+}
+
+.selectTop04 {
+    display: inline;
+    float: left;
+    height: 9px;
+    width: 12px;
+    overflow: hidden;
+    z-index: 4;
+    background: url(/app_images/insurance/select03.jpg) no-repeat;
+    margin-left: 135px;
+    position: relative;
+    bottom: -1px;
+}
+
+.selectBody01 {
+    width: 500px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #ecf6ff;
+    border: 1px solid #cee8ff;
+}
+
+.selectBody02 {
+    width: 500px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #ecf6ff;
+    border: 1px solid #cee8ff;
+}
+
+.selectBody03 {
+    width: 500px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #ecf6ff;
+    border: 1px solid #cee8ff;
+}
+
+.selectBody04 {
+    width: 500px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #ecf6ff;
+    border: 1px solid #cee8ff;
+}
+
+.tips {
+    display: inline;
+    padding: 50px;
+    float: left;
+    position: relative;
+    width: 190px;
+    margin-right: 20px;
+}
+
+.tipsTxt {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ff6600;
+    height: 30px;
+    line-height: 30px;
+}
+
+.tipsItemList {
+    font-size: 13px;
+    color: #818c97;
+}
+
+.quotationMarks {
+    background: url(/app_images/insurance/quotation01.jpg) no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 39px;
+    height: 39px;
+}
+
+.underQuotes {
+    background: url(/app_images/insurance/quotation02.jpg) no-repeat;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    width: 39px;
+    height: 39px;
+}
+
+.clauseBlock {
+    width: 196px;
+    height: 244px;
+    background: #f6f6f6;
+    float: left;
+    margin-left: 20px;
+}
+
+.clauseItemList {
+    color: #818c97;
+    padding: 8px 20px;
+    line-height: 20px;
+}
+
+.knowledge {
+    background: #fafafa;
+}
+
+.knowledgeTitle {
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.knowledgeBody {
+    height: auto;
+}
+
+.ask {
+    padding: 10px 30px 20px 30px;
+    background: url(/app_images/insurance/ask.jpg) no-repeat 0px 10px;
+    font-weight: bold;
+}
+
+.answer {
+    padding: 0px 30px 10px 30px;
+    background: url(/app_images/insurance/answer.jpg) no-repeat 0px 0px;
+    border-bottom: 1px dotted #808e9c;
+}
+
+a.btn {
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    background: url(/app_images/insurance/creIcoB.png) no-repeat;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 201;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background: url(/app_images/insurance/creIcoY.png) no-repeat;
+}
+
+a.clicked {
+    background: url(/app_images/insurance/creIcoY.png) no-repeat;
+}
+
+.t1 {
+    top: 85px;
+    left: 512px;
+}
+
+.t2 {
+    top: 102px;
+    left: 470px;
+}
+
+.t3 {
+    top: 100px;
+    left: 635px;
+}
+
+.t4 {
+    top: 73px;
+    left: 445px;
+}
+
+.t5 {
+    top: 90px;
+    left: 700px;
+}
+
+.t6 {
+    top: 70px;
+    left: 610px;
+}
+
+.t7 {
+    top: 158px;
+    left: 746px;
+}
+
+.t8 {
+    top: 110px;
+    left: 673px;
+}
+
+.t9 {
+    top: 170px;
+    left: 276px;
+}
+
+.t10 {
+    top: 90px;
+    left: 556px;
+}
+
+.t11 {
+    top: 50px;
+    left: 765px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+a.commonTool01 {
+    display: block;
+    background: url(/app_images/insurance/commonTools01a.jpg) no-repeat center 30%;
+}
+
+a.commonTool01:hover {
+    background: url(/app_images/insurance/commonTools01b.jpg) no-repeat center 30%;
+}
+
+a.commonTool02 {
+    display: block;
+    background: url(/app_images/insurance/commonTools02a.jpg) no-repeat center 30%;
+}
+
+a.commonTool02:hover {
+    background: url(/app_images/insurance/commonTools02b.jpg) no-repeat center 30%;
+}
+
+a.commonTool03 {
+    display: block;
+    background: url(/app_images/insurance/commonTools03a.jpg) no-repeat center 30%;
+}
+
+a.commonTool03:hover {
+    background: url(/app_images/insurance/commonTools03b.jpg) no-repeat center 30%;
+}
+
+a.commonTool04 {
+    display: block;
+    background: url(/app_images/insurance/commonTools04a.jpg) no-repeat center 30%;
+}
+
+a.commonTool04:hover {
+    background: url(/app_images/insurance/commonTools04b.jpg) no-repeat center 30%;
+}
+
+a.commonTool05 {
+    display: block;
+    background: url(/app_images/insurance/commonTools05a.jpg) no-repeat center 30%;
+}
+
+a.commonTool05:hover {
+    background: url(/app_images/insurance/commonTools05b.jpg) no-repeat center 30%;
+}
+
+a.commonTool06 {
+    display: block;
+    background: url(/app_images/insurance/commonTools06a.jpg) no-repeat center 30%;
+}
+
+a.commonTool06:hover {
+    background: url(../Public/Home/images/product/commonTools06b.jpg) no-repeat center 30%;
+}
+
+a.commonTool07 {
+    display: block;
+    background: url(../Public/Home/images/product/commonTools07a.jpg) no-repeat center 30%;
+}
+
+a.commonTool07:hover {
+    background: url(../Public/Home/images/product/commonTools07b.jpg) no-repeat center 30%;
+}
+
+a.commonTool08 {
+    display: block;
+    background: url(../Public/Home/images/product/commonTools08a.jpg) no-repeat center 30%;
+}
+
+a.commonTool08:hover {
+    background: url(../Public/Home/images/product/commonTools08b.jpg) no-repeat center 30%;
+}
+
+a.commonTool09 {
+    display: block;
+    background: url(../Public/Home/images/product/commonTools09a.jpg) no-repeat center 30%;
+}
+
+a.commonTool09:hover {
+    background: url(../Public/Home/images/product/commonTools09b.jpg) no-repeat center 30%;
+}
+
+ul.navBlock {
+    display: block;
+    position: absolute;
+    top: -345px;
+    *top: -330px;
+    left: 0px;
+    width: 196px;
+    height: 330px;
+    *height: 330px;
+    border-bottom: 2px solid #ff6600;
+    background: #fff;
+    z-index: 998;
+}
+
+ul.navBlock li.oneLevelList {
+    display: block;
+    height: 47px;
+    *height: 47px;
+}
+
+ul.navBlock li.oneLevelList a.navLinkList {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+ul.navBlock li.oneLevelList a.bg {
+    background: #f8f8f8;
+    color: #ff6610;
+}
+
+ul.navBlock li.oneLevelList a.navLinkList div.navbody {
+    width: 150px;
+    line-height: 47px;
+    *line-height: 47px;
+    height: 100%;
+    margin: 0 auto;
+    border-bottom: 1px dotted #808e9c;
+    font-size: 14px;
+    font-weight: bold;
+    background: url(../Public/Home/images/product/menuListLinkIco.gif) no-repeat right center;
+}
+
+img.middle {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.secondLevelMenu {
+    position: absolute;
+    width: 230px;
+    top: -350px;
+    left: 190px;
+    z-index: 1000;
+    background: #f8f8f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.levelMenuTitle {
+    height: 47px;
+    border-bottom: 1px dotted #808e9c;
+    line-height: 47px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.secondLevelList li {
+    display: inline;
+    float: left;
+    padding-right: 10px;
+    height: 22px;
+    line-height: 22px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.secondLevelList li a {
+    height: 22px;
+    line-height: 22px;
+}
+
+.navTop0 {
+    top: 0px;
+}
+
+.navTop1 {
+    top: 47px;
+}
+
+.navTop2 {
+    top: 94px;
+}
+
+.navTop3 {
+    top: 141px;
+}
+
+.navTop4 {
+    top: 188px;
+}
+
+.navTop5 {
+    top: 235px;
+}
+
+.navTop6 {
+    top: 215px;
+    *top: 235px;
+}
+
+.secondLevelMenuList {
+    position: absolute;
+    left: 195px;
+    z-index: 9999;
+    background: #f8f8f8;
+    width: 230px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.getQuotes {
+    display: inline;
+    float: left;
+    width: 358px;
+    height: 227px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    background: url(../Public/Home/images/product/bg01.png) no-repeat;
+}
+
+.getQuotes .getQuotesBlock {
+    padding: 30px;
+}
+
+.getQuotes .getQuotesBlock .getQuotesTitle {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.getQuotes .getQuotesBlock .getQuotesTxt {
+    font-size: 16px;
+}
+
+a.getQuotesLink {
+    text-decoration: none;
+    color: #ff8700;
+}
+
+.holdTool {
+    height: 227px;
+    width: 598px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    background: #f8f8f8;
+    display: inline;
+    float: right;
+}
+
+.holdTool .holdToolBlock {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+a.holdToolIcon {
+    text-align: center;
+    display: inline;
+    float: left;
+    width: 148px;
+    height: 95px;
+    border-right: 1px dotted #dcdcdc;
+    text-decoration: none;
+    color: #74808c;
+    font-size: 14px;
+}
+
+a.holdToolIcon:hover {
+    color: #ff6600;
+}
+
+.holdToolIcon div {
+    padding-top: 60px;
+}
+
+.brn {
+    border-right: none !important;
+}
+
+.holdIcon1 {
+    background: url(../Public/Home/images/product/tool01.png) no-repeat center 20%;
+}
+
+.holdIcon1:hover {
+    background: url(../Public/Home/images/product/tool01-1.png) no-repeat center 18%;
+}
+
+.holdIcon2 {
+    background: url(../Public/Home/images/product/tool02.png) no-repeat center 20%;
+}
+
+.holdIcon2:hover {
+    background: url(../Public/Home/images/product/tool02-1.png) no-repeat center 18%;
+}
+
+.holdIcon3 {
+    background: url(../Public/Home/images/product/tool03.png) no-repeat center 20%;
+}
+
+.holdIcon3:hover {
+    background: url(../Public/Home/images/product/tool03-1.png) no-repeat center 18%;
+}
+
+.holdIcon4 {
+    background: url(../Public/Home/images/product/tool04.png) no-repeat center 20%;
+}
+
+.holdIcon4:hover {
+    background: url(../Public/Home/images/product/tool04-1.png) no-repeat center 18%;
+}
+
+.holdIcon5 {
+    background: url(../Public/Home/images/product/tool05.png) no-repeat center 20%;
+}
+
+.holdIcon5:hover {
+    background: url(../Public/Home/images/product/tool05-1.png) no-repeat center 18%;
+}
+
+.holdIcon6 {
+    background: url(../Public/Home/images/product/tool06.png) no-repeat center 20%;
+}
+
+.holdIcon6:hover {
+    background: url(../Public/Home/images/product/tool06-1.png) no-repeat center 18%;
+}
+
+.holdIcon7 {
+    background: url(../Public/Home/images/product/tool07.png) no-repeat center 20%;
+}
+
+.holdIcon7:hover {
+    background: url(../Public/Home/images/product/tool07-1.png) no-repeat center 18%;
+}
+
+.holdIcon8 {
+    background: url(../Public/Home/images/product/tool08.png) no-repeat center 20%;
+}
+
+.holdIcon8:hover {
+    background: url(../Public/Home/images/product/tool08-1.png) no-repeat center 18%;
+}
+
+.holdIcon9 {
+    background: url(../Public/Home/images/product/tool09.png) no-repeat center 20%;
+}
+
+.holdIcon9:hover {
+    background: url(../Public/Home/images/product/tool09-1.png) no-repeat center 18%;
+}
+
+a#quoteLink {
+    background: #FF6600 !important;
+    height: 32px !important;
+    line-height: 32px !important;
+}
+
+a#quoteLink:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.paui-citysuggest-popup {
+    width: 350px !important;
+}
+
+#listCity {
+    width: 260px !important;
+}
+
+.pricingBorder {
+    border: 1px solid #dedede;
+    padding: 9px 10px;
+}
+
+.pricingBorder .pricingTitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pricingBorder input {
+    border: none;
+}
+
+.licensePlate {
+    position: relative;
+    width: 200px;
+}
+
+.disBlock {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+}
+
+.checkPlate {
+    position: absolute;
+    z-index: 100;
+    right: -30px;
+    top: 20px;
+}
+
+a#submitBtn {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;;
+    background: #ff6600;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.txtRight {
+    text-align: right;
+    height: 36px;
+}
+
+a.linkRenewal {
+    text-decoration: none;
+    color: #3ba5ff;
+    line-height: 36px;
+}
+
+a.linkRenewal:hover {
+    text-decoration: none;
+    color: #3ba5ff;
+}
+
+.locationIco {
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    z-index: 99;
+    background: url(../Public/Home/images/product/positionIco.png) no-repeat;
+}
+
+.btns a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#floatingFrame {
+    width: 100px;
+    height: 60px;
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    margin: -47px 0 0 502px;
+    z-index: 99;
+}
+
+#floatingFrame .returnTop {
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 1px solid #dedede;
+    background-color: #fff;
+}
+
+#floatingFrame .contactCustomer {
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dedede;
+    display: inline;
+    float: left;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+#floatingFrame .feedback {
+    padding: 3px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dedede;
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 16px;
+    background-color: #fff;
+}
+
+.colorA a {
+    color: #3ba5ff;
+    text-decoration: none;
+}
+
+.colorA a:hover {
+    color: #3ba5ff;
+    text-decoration: none;
+}
+
+.tabsBody {
+    *height: 1%;
+}
+
+.onerror {
+    background: #fff2e9 url(../Public/Home/images/product/paui.gif) no-repeat 4px -596px;
+    color: #666;
+    border: 1px solid #f60;
+    padding-left: 25px;
+    line-height: 20px;
+}
+
+.dataRight {
+    *width: 120px;
+    *display: inline;
+    *float: right;
+}
+
+.lvyouxianMainBg {
+    background: #ebf2fe;
+}
+
+.caichanxianMainBg {
+    background: #fdffef;
+}
+
+.shaoerxianMainBg {
+    background: #f2eec1;
+}
+
+.jiankangxianMainBg {
+    background: #ffffff;
+}
+
+.yiwaixianMainBg {
+    background: #f9fdfe;
+}
+
+.yanglaoxianMainBg {
+    background: #fffbe2;
+}
+
+.getQuotesTxt {
+    padding-bottom: 10px;
+}
+
+.pa_ui_validator_onerror {
+    background: #fff2e9 url('../Public/Home/images/product/paui.gif') 4px -596px no-repeat !important;
+    line-height: 25px !important;
+}
+
+.noBorder {
+    border: none !important;
+}
+
+.indexBanner {
+    display: block;
+    background: url(../Public/Home/images/product/banner0309.jpg) no-repeat center center;
+    height: 330px;
+    width: 100%;
+}
+
+/* 2015/04/10 产品优化一期 */
+.fixedSidebar {
+    width: 66px;
+    top: 0;
+    position: absolute; /*margin-right: 502px; right:50%;*/
+    left: -80px;
+}
+
+.fixedSidebar_tbg {
+    height: 35px;
+    background: url(../Public/Home/images/product/fixedsidebar_bg1.png) top no-repeat;
+}
+
+.fixedSidebar_bbg {
+    height: 35px;
+    background: url(../Public/Home/images/product/fixedsidebar_bg2.png) bottom no-repeat;
+}
+
+.fixedSidebar_con {
+    background: url(../Public/Home/images/product/fixedsidebar_bg.png) center repeat;
+}
+
+.fixedSidebar_con li {
+    padding: 0 6px 15px;
+    display: block;
+    font-size: 14px;
+}
+
+.fixedSidebar_con li.no_pd {
+    padding-bottom: 0;
+}
+
+.fixedSidebar_con li a {
+    width: 54px;
+    height: 54px;
+    display: block;
+    text-decoration: none;
+    color: #ff6600;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.fixedSidebar_con li a:hover,
+.fixedSidebar_con li a.clickShow {
+    background: url(../Public/Home/images/product/fixedicon_show.png) no-repeat center center;
+    text-decoration: none;
+    color: #ff6600;
+    text-indent: 0px;
+    line-height: 54px;
+}
+
+a.fixed_sb01 {
+    background: url(../Public/Home/images/product/fixedicon01.png) no-repeat center center;
+}
+
+a.fixed_sb02 {
+    background: url(../Public/Home/images/product/fixedicon02.png) no-repeat center center;
+}
+
+a.fixed_sb03 {
+    background: url(../Public/Home/images/product/fixedicon03.png) no-repeat center center;
+}
+
+a.fixed_sb04 {
+    background: url(../Public/Home/images/product/fixedicon04.png) no-repeat center center;
+}
+
+a.fixed_sb05 {
+    background: url(../Public/Home/images/product/fixedicon05.png) no-repeat center center;
+}
+
+a.fixed_sb06 {
+    background: url(../Public/Home/images/product/fixedicon06.png) no-repeat center center;
+}
+
+a.fixed_sb07 {
+    background: url(../Public/Home/images/product/fixedicon07.png) no-repeat center center;
+}
+
+.fixedSidebar_con li.no_pd a,
+.fixedSidebar_con li.no_pd a:hover {
+    width: 30px;
+    height: 47px;
+    padding: 7px 12px 0;
+    line-height: 20px;
+}
+
+#fixed_right {
+    width: 100px;
+    top: 0; /* position: fixed; left: 50%; margin: 0 0 0 502px;*/
+    position: absolute;
+    right: -110px;
+    z-index: 99;
+}
+
+#fixed_right .returnTop,
+#fixed_right .contactCustomer,
+#fixed_right .feedbackIns {
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #dedede;
+    background-color: #fff;
+}
+
+#fixed_right .returnTop {
+    display: block;
+    margin-top: 100px;
+}
+
+#fixed_right .contactCustomer,
+#fixed_right .feedbackIns {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
+
+.cornerImage {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 8px;
+    top: 9px;
+
+}
+
+.remai {
+    background: url(../Public/Home/images/product/remai.png) no-repeat center center;
+}
+
+.shuang11 {
+    width: 100%;
+    height: 422px;
+    top: 160px;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 10;
+}
+
+/* 2016/01/07 优惠活动字段 */
+.youhuibox {
+    color: #f00;
+    font-size: 12px;
+    line-height: 13px;
+    padding-left: 60px;
+    font-weight: normal;
+    position: absolute;
+    top: 80px;
+    left: 292px;
+}
+
+.youhuibox span {
+    position: absolute;
+    width: 56px;
+    height: 13px;
+    left: 0;
+    display: inline-block;
+    top: 0;
+    background: url(http://www.pingan.com../Public/Home/images/product/youhuihuodong.jpg) no-repeat center center;
+}
+
+.youhuibox .activelink {
+    color: #f00;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.youhuibox .activelink:hover {
+    text-decoration: underline !important;
+}
