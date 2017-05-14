@@ -1,3 +1,16 @@
+function b(){
+    h = $(window).height();
+    t = $(document).scrollTop();
+}
+$(document).ready(function(e) {
+    b();
+    $("#sidebox li.top").click(function(){$('body,html').animate({scrollTop:0},200);
+    })
+});
+$(window).scroll(function(e){
+    b();
+})
+
 var width=$(".bannerbox").width();
 var i=-1;
 var timer=0;

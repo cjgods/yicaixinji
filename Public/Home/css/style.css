@@ -74,18 +74,24 @@ input {-webkit-appearance:none; /*åŽ»é™¤è‹¹æžœé»˜è®¤inputé�
 #toshop p{ color:#000; font-size:20px; text-align:center;}
 /**/
 #about{width:1000px; margin:0 auto; padding:30px 0;}
-#about h3{ color:#ed7b03; font-size:22px; font-weight:normal; line-height:24px; padding-bottom:12px; border-bottom:solid 1px #ed7b03;}
+#about h3{text-align: center; color:#161616; font-size:28px;     font-family: 微软雅黑; font-weight:normal; line-height:24px; padding-bottom:35px; }
+.aboutSpan{text-align: center; color:#9b9b9b;padding-top22px;padding-bottom:40px;font-size: 17px; border-bottom:solid 1px #f0f0f0;}
 #abouts .box{ position:relative; margin:50px 0px 30px; border:solid 1px #000;}
 #abouts .tit{ position:absolute; left:30px; top:0; display:inline-block; color:#ed7b03; font-size:20px; margin:-12px 0 0 0; padding:0 10px; background:#fff;}
 #abouts .txt{ height:280px; font-size:16px; line-height:40px; padding:50px 500px 30px 30px; background:url(../images/about_img.jpg) right top no-repeat; background-size:480px;}
-#ss{ height:354px; padding:80px 0 30px;}
+#ss{ height:354px; padding:96px 0 30px;}
 #ss h4{ text-align:center; margin-top:-90px;}
 #ss .tit{ text-align:center; color:#e95c00; font-weight:bold; font-size:14px; padding-bottom:10px;}
 #ss .tit strong{ font-size:20px;}
 #ss .sc{ min-height:282px; font-size:16px; line-height:32px; padding:10px 35px 0px;}
-#s1{ float:left; position:relative; width:320px; border:solid 1px #000;}
-#s2{ float:left; width:320px; border:solid 1px #000; margin-left:16px;}
-#s3{ float:right; width:320px; border:solid 1px #000;}
+#s1{ float:left; position:relative; width:295px; border:solid 1px #000;height: 190px;margin-right: 10px;}
+#s2{ float:left; width:310px; border:solid 1px #000; margin-left:30px;height: 190px;margin-right: 10px;}
+#s3{ float:right; width:310px;margin-left: 10px; border:solid 1px #000;height: 190px;}
+.aboutdiv{text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #333333;}
+.zhuangzhuSpan{    color: #CCCCCC;font-size: 16px;}
 /**/
 #processWrap{ width:1000px; margin:0 auto;}
 #process{ position:relative; width:1920px; height:480px; margin:0 -460px; background:url(../images/process.jpg) center top no-repeat;}

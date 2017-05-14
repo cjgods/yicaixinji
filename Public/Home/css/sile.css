@@ -26,7 +26,6 @@
 #siletitle{
     position: relative; color: #e95c00;
     width: 1000px; margin: 0 auto;
-    border-bottom: solid 1px #555;
 
 }
 
@@ -34,7 +33,8 @@
     top: -10px;left: 350px; font-weight: bold;
 }
 #siletitle2{
-    padding-top: 20px; padding-bottom: 30px; font-size: 16px;color: #333;
+    background: url(../images/6.png) repeat center;
+    padding-top: 20px; padding-bottom: 30px; font-size: 16px;color: #FFF;
     text-align: center;
 }
 
